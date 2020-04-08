@@ -11,7 +11,8 @@
   "scripts": {
     "prepare": "npm run build",
     "build": "tsc",
-    "watch:src": "nodemon --watch ./src -x \"npm run build\"",
+    "watch:build": "nodemon --watch ./src -x \"npm run build\" -e js,ts,tsx",
+    "watch:test": "nodemon --watch ./src -x \"npm run coverage\" -e js,ts,tsx",
     "lint": "eslint --ext .js,.ts,.tsx .",
     "test": "jest",
     "coverage": "jest --coverage"
