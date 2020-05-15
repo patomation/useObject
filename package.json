@@ -52,7 +52,7 @@
     "nodemon": "2.0.2",
     "react": "16.13.0",
     "react-dom": "16.13.0",
-    "ts-jest": "25.2.1",
+    "ts-jest": "26.0.0",
     "tsconfigs": "4.0.2",
     "typescript": "3.8.3"
   },
